@@ -28,7 +28,7 @@ jobs:
       - name: Run Trivy scan
         uses: aquasecurity/trivy-action@master
         with: 
-            image-ref: 'awesometodo:latest'
+            image-ref: 'ghcr.io/nakatatsukun/awesometodo:256c6f1775e9e3d46d1cc829f1ffb5e12b851463'
             format: 'table'
             ignore-unfixed: true
             vuln-type: 'os,library'
